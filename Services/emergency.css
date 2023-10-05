@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(190, 189, 189);
+}
+ul li a{
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+}
+main h2{
+    font-family: 'Bree Serif', serif;
+}
+
+.row img{
+    border-radius: 23px;
+    /* box-shadow: 12px 12px 12px gray; */
+    cursor: pointer;
+    transition: transform 2s ease in;
+}
+#img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#img2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@media(max-width:992px){
+    #img{
+        height: 400px;
+    }
+    #img2{
+        height: 400px;
+    }
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 99.11%;
+    background-color: rgb(29, 55, 168);
+}
+footer img{
+    margin-left: 60px;
+}
+footer h2{
+    /* font-family: 'Bree Serif', serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+@media(max-width:767px){
+    #fimg{
+        margin-left: 200px;
+        width: 30%;
+    }}
+@media(max-width:500px){
+    #fimg{
+        margin-left: 130px;
+        width: 30%;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+#rights{
+    display: block;
+    width: 50%;
+}
+
+.icon{
+    font-size: 22px;
+}
+.icon a{
+    font-size: 22px;
+    padding: 3px 10px;
+    text-align: right;
+
+}
+
+@media(max-width:425px){
+    #icon{
+        display: none;
+    }
+}

@@ -1,0 +1,435 @@
+.top{
+    height: 30px;
+    width: 100%;
+    display: block;
+}
+.marquee{
+    overflow: hidden;
+    display: inline;
+    padding: 3px 35px;
+}
+
+        /* NAVIGATION CSS */
+
+        
+ul li a{
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+            /* BACKGROUND IMAGE  CSS*/
+
+.bg-img{
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.39) );
+    background-image: url(../Images/bg\ img.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 6px 6px 6px gray;
+
+}
+
+@media (max-width: 500px){
+    .bg-img{
+        height: 440px;
+    }
+}
+.bg-dis{
+    top: 120px;
+    left: 6%;
+    position: absolute;
+    overflow: hidden;
+    text-align: left !important;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-dis h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+@media (max-width: 601px){
+    .bg-dis{
+        left: 1px;
+    }
+}
+
+@media (max-width: 542px){
+    #para{
+        display: none;
+    }
+}
+#btn{
+    animation-name: movein;
+    animation-duration: 2s
+}
+@keyframes movein{
+    from{
+        margin-bottom: 200px;
+    }
+    to{
+        margin-bottom: 0px;
+    }
+}
+#btn:hover{
+    background-color:rgb(24, 96, 190) ;
+    color: white;
+    outline: none;
+}
+
+#heading{
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move{
+    from{
+        margin-left: 300px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px){
+    #heading{
+        top: 50%;
+    }
+}
+
+
+            /* CARD CSS */
+    
+.card{
+    height: 270px;
+    width: 100%;
+
+} 
+
+#name{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    font-size: 19px ;
+    color: White;
+    margin-top: 15px;
+    outline: none;
+  }
+   #depart{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    font-size: 19px;
+    color: White;
+    margin-top: 5px;
+    outline: none;
+  }
+
+  #option{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    font-size: 19px;
+    color: black;
+    margin-top: 25px;
+    outline: none;
+  }
+
+  #name2{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    font-size: 19px ;
+    color: White;
+    margin-top: 15px;
+    outline: none;
+  }
+   #depart2{
+    background-color: transparent;
+    height: 40px;
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid white;
+    font-size: 19px;
+    color: White;
+    margin-top: 25px;
+    outline: none;
+  }
+
+  @media (max-width:992px){
+    #card3{
+        margin-top: 19px;
+        margin-left: 170px;
+
+    }
+  }
+  @media (max-width:767px){
+    #card3{
+        margin: auto;
+    }
+  }
+
+  @media (max-width:767px){
+    #card3{
+        margin-top: 12px;
+    }
+  }
+  @media (max-width:767px){
+    #card2{
+        margin-top: 12px;
+    }
+  }
+
+
+  /* Services CSS */
+
+
+.card2 a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    color: rgb(81, 81, 192);
+
+}
+.card2 img{
+    height: 70px;
+    width: 60%;
+    margin-left: 30px;
+}
+
+@media (max-width:992px){
+    #scpc{
+        margin-top:35px ;
+    }
+    #hhc{
+        margin-top:35px ;
+    }
+    #phy{
+        margin-top:35px ;
+    }
+}
+
+@media (max-width:767px){
+    #ehc{
+        margin-top: 35px;
+    }
+}
+
+            /* ACADEMICS CSS*/
+
+ #heading2{
+     padding-top: 13px;
+ }
+#section{
+    /* background-color: rgb(24, 24, 99); */
+    background-color: rgb(65, 91, 206);
+
+    height: 410px;    
+    width: 100%;
+}
+@media(max-width:992px){
+    #section{
+        height: 650px;
+    }
+}
+@media(max-width:767px){
+    #section{
+        height: 960px;
+    }
+}
+section h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.card3 a{
+    text-decoration: none;
+    color: rgb(57, 57, 85);
+}
+.card3{
+    transition: transform .3s ease-in;
+}
+.card3:hover{
+    transform: scale(1.04);
+}
+
+.card3 img{
+    height: 230px;
+    border-top-left-radius:13px;
+    border-top-right-radius:13px;
+    text-decoration: none;
+
+}
+.card3 h4{
+    font-family: 'Bree Serif', serif;
+    font-size: 22px;
+    text-align: center;
+
+}
+.card-body{
+    height: 35px;
+    border-bottom-left-radius:13px;
+    border-bottom-right-radius:13px;
+}
+
+  @media (max-width:767px){
+    #card4{
+        margin-top: 12px;
+    }
+  }
+
+  @media (max-width:992px){
+    #card5{
+        margin: auto;
+        margin-top: 12px;
+    }
+  }
+      
+  /* Founder CSS */
+
+  .lead{
+    font-family: 'Bree Serif', serif;
+    font-weight:lighter;
+  }
+  @media (max-width:992px){
+    #para2{
+        display: none;
+    }
+  }
+
+#foundimg{
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
+ 
+
+  /* SUCCESS STORIES */
+
+
+  #img{
+    height: 310px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  #img2{
+    border-radius: 10px;
+  }
+
+@media(max-width:992px){
+    #img{
+        height: 420px;
+    }
+    #img2{
+        height: 420px;
+    }
+}
+
+@media(max-width:767px){
+    #img2{
+        margin-top: 20px;
+    }
+}
+
+
+            /* FOOTER CSS */
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 99.11%;
+    background-color: rgb(29, 55, 168);
+}
+footer img{
+    margin-left: 60px;
+}
+footer h2{
+    /* font-family: 'Bree Serif', serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+@media(max-width:767px){
+    #fimg{
+        margin-left: 200px;
+        width: 30%;
+    }}
+@media(max-width:500px){
+    #fimg{
+        margin-left: 130px;
+        width: 30%;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+#rights{
+    display: block;
+    width: 50%;
+}
+
+.icon{
+    font-size: 22px;
+}
+.icon a{
+    font-size: 22px;
+    padding: 3px 10px;
+    text-align: right;
+
+}
+
+@media(max-width:425px){
+    #icon{
+        display: none;
+    }
+}
+
+
+/* click to reach top (scroll top) */
+
+.scrollTo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(19, 19, 99);
+    color: white;
+    transform: all .3s ease 0s;
+}

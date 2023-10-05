@@ -1,0 +1,223 @@
+ul li a{
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+}
+#body{
+    background-color: rgb(192, 190, 190);
+}
+main h2{
+    font-family: 'Bree Serif', serif;
+
+}
+
+.container .card{
+    width: 100%;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.card-body{
+    height: 300px;
+}
+
+.card img{
+    height: 300px;
+    border-radius: 23px;
+    /* margin-top: 160px; */
+}
+
+.img, .card-body{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 23px;
+}
+
+/* Card front styling */
+.img {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    height: 300px;
+}
+
+     /* Card back styling */
+     .card-body{
+        background-color: #0d0d0e;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 18px;
+        transform: rotateY(180deg);
+        border-radius: 23px;
+        color: white;
+    }
+
+    /* Flip the card on hover */
+    .col-lg-3:hover .card {
+        transform: rotateY(180deg);
+    }
+   
+
+section h2{
+    font-family: 'Bree Serif', serif;
+}
+section h3,h5{
+    font-family: 'Bree Serif', serif;
+
+}
+#team1{
+    border-radius: 500px;
+    height: 300px;
+    width: 90%;
+    cursor: pointer;
+}
+#team2{
+    border-radius: 500px;
+    height: 300px;
+    width: 90%;
+    cursor: pointer;
+}
+#team3{
+    border-radius: 500px;
+    height: 300px;
+    width: 90%;
+    cursor: pointer;
+}
+@media(max-width:992px){
+    #img{
+        height: 470px;
+    }
+    #img2{
+        height: 370px;
+        width: 100%;
+    }
+    #head3{
+        margin-top: 22px;
+    }
+    #head4{
+        margin-top: 22px;
+    }
+    #boy2{
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:768px){
+    #girl1{
+        margin-top: 35px;
+    }
+    #boy2{
+        margin-top: 35px;
+    }
+    #head2{
+        margin-top: 35px;
+    }
+    #head3{
+        margin-top: 35px;
+    }
+    #head4{
+        margin-top: 35px;
+    }
+    #team1{
+        height: 450px;
+        width: 100%;
+    }
+    #team2{
+        height: 450px;
+        width: 100%;
+    }
+    #team3{
+        height: 450px;
+        width: 100%;
+    }
+}
+
+@media(max-width:430px){
+    #team1{
+        height: 350px;
+        width: 100%;
+    }
+    #team2{
+        height: 350px;
+        width: 100%;
+    }
+    #team3{
+        height: 350px;
+        width: 100%;
+    }
+
+}
+    footer ul li a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    footer ul li a:hover{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+    footer{
+        width: 99.11%;
+        background-color: rgb(29, 55, 168);
+    }
+    footer img{
+        margin-left: 60px;
+    }
+    footer h2{
+        /* font-family: 'Bree Serif', serif; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+    
+    }
+    @media(max-width:767px){
+        #fimg{
+            margin-left: 200px;
+            width: 30%;
+        }}
+    @media(max-width:500px){
+        #fimg{
+            margin-left: 130px;
+            width: 30%;
+        }
+    }
+    
+    .main{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    #rights{
+        display: block;
+        width: 50%;
+    }
+    
+    .icon{
+        font-size: 22px;
+    }
+    .icon a{
+        font-size: 22px;
+        padding: 3px 10px;
+        text-align: right;
+    
+    }
+    
+    @media(max-width:425px){
+        #icon{
+            display: none;
+        }
+    }

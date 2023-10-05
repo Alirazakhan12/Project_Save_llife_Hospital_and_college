@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(194, 193, 193);
+}
+ul li a{
+    font-size: 16px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+}
+
+.form-group{
+    width: 80%;
+ }
+
+ .form-row{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+ }
+ h3{
+    font-family: 'Bree Serif', serif;
+    text-decoration: underline;
+
+ }
+
+
+ label{
+    font-family: 'Bree Serif', serif;
+
+ }
+ .form-group input{
+    border: 2px solid gray;
+    border-radius: 23px;
+ }
+ .form-group textarea{
+    border: 2px solid gray;
+    border-radius: 23px;
+}
+
+@media(max-width:768px){
+    .form-group{
+        width: 100%;
+    }
+    label{
+        width: 100%;
+        margin-top: 13px;
+    }
+    #male{
+        margin-top: 13px;
+    }
+    #female{
+        margin-top: 13px;
+    }
+    #other{
+        margin-top: 13px;
+    }
+    #asthma{
+        margin-top: 13px;
+    }
+    #allergies{
+        margin-top: 13px;
+    }
+    #diabetes{
+        margin-top: 13px;
+    }
+    #heartDisease{
+        margin-top: 13px;
+    }
+    #hypertension{
+        margin-top: 13px;
+    }
+    #pain{
+        margin-top: 13px;
+    }
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 99.11%;
+    background-color: rgb(29, 55, 168);
+}
+footer img{
+    margin-left: 60px;
+}
+footer h2{
+    /* font-family: 'Bree Serif', serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+
+}
+@media(max-width:767px){
+    #fimg{
+        margin-left: 200px;
+        width: 30%;
+    }}
+@media(max-width:500px){
+    #fimg{
+        margin-left: 130px;
+        width: 30%;
+    }
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+#rights{
+    display: block;
+    width: 50%;
+}
+
+.icon{
+    font-size: 22px;
+}
+.icon a{
+    font-size: 22px;
+    padding: 3px 10px;
+    text-align: right;
+
+}
+
+@media(max-width:425px){
+    #icon{
+        display: none;
+    }
+}
